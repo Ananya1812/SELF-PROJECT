@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: beige;
+    display: grid;
+    overflow: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    place-items: center;
+    min-height: 100vh;
+}
+img{
+    width: 250px;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+}
+.container{
+    background-color: #fff;
+    width:600px ;
+    height: 450px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    line-height: 1.5;
+    box-shadow: 1px 20px 30px rgba(0, 0, 0, 0.185);
+
+}
+.container::after{
+    content:"";
+    position: absolute;
+    background-image: linear-gradient(to bottom right,#ff9ec4,#ffd07e);
+    width: 900px;
+    height: 900px;
+    z-index: -1;
+    border-radius: 50%;
+}
+.container-close{
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    background-color: #fff;
+    height: 50px;
+    width: 50px;
+    display: grid;
+    place-items: center;
+    font-size: larger;
+    color: black;
+    border-radius: 50%;
+    box-shadow: 0 5px 10px rgb(0, 0, 0) ;
+    cursor: pointer;
+}
+.container-text{
+    padding: 10px 40px 10px 10px;
+
+}
+h2{
+    font-size: larger;
+    color: #1a2350;
+}
+p{
+    font-size: 15px;
+    color:#3b4169 ;
+}
+input,button{
+    width: 100%;
+    border: none;
+    padding: 15px;
+    border-radius: 4px;
+}
+input{
+    border: 2px solid #daddec;
+    margin: 5px 0 10px;
+    font-size: small;
+}
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:#ffd07e;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+  }
+  
+  button:hover {
+    transform: scale(1.1); /* You can adjust the scale factor as desired */
+  }
+
+span{
+display: block;
+text-align: center;
+color: #74798d;
+font-size: 13px;
+margin: 30px 0 0;
+}

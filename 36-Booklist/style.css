@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(13, 108, 121);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.container {
+  height: 600px;
+  width: 80%;
+  padding: 20px;
+  position: relative;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 4px;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 1px 2px 2px black;
+}
+.table {
+  background-color: crimson;
+  width: 100%;
+}
+.table-div {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+#book-list {
+  display: flex;
+  flex-direction: column; 
+  background-color: #fff;
+  list-style: none;
+  overflow: hidden;
+  color: #000;
+  margin-top: 10px; 
+}
+
+#book-list > div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#book-list > div > div {
+  flex: 1; 
+}
+
+.btn {
+  background-color: darkslateblue;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+  box-shadow: 1px 2px 2px black;
+  cursor: pointer;
+}

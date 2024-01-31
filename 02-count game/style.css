@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background-image: url(https://images.unsplash.com/photo-1503455637927-730bce8583c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bGlnaHQlMjBjb2xvdXJlZHglMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60);
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+    font-size: 3em;
+}
+
+.container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 2rem;
+    background-color: #f90000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#countDisplay {
+    font-size: 1em;
+    margin-top: 20px;
+}
