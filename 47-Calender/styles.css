@@ -1,0 +1,70 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #ffe8d6; /* Boho peach background color */
+}
+
+.calendar-container {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.calendar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #ffccbc; /* Light peach color for header */
+}
+
+.prev-month,
+.next-month {
+  font-size: 20px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: #673ab7; /* Purple color for arrows */
+}
+
+.current-month {
+  font-size: 18px;
+  color: #673ab7; /* Purple color for month text */
+}
+
+.calendar-days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+  padding: 10px;
+}
+
+.day {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  background-color: #ffd699; /* Light yellow color for days */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.day:hover {
+  background-color: #ffcc80; /* Darker yellow on hover */
+}
+
+.today {
+  background-color: #81c784; /* Green color for today's date */
+  color: #fff;
+}
+
+.inactive {
+  color: #ccc; /* Gray color for inactive days */
+  cursor: not-allowed;
+}
