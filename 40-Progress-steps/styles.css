@@ -1,0 +1,34 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .progress-container {
+    display: flex;
+    background-color: #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .progress-step {
+    flex: 1;
+    text-align: center;
+    padding: 15px;
+    border-right: 1px solid #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .progress-step:last-child {
+    border-right: none;
+  }
+  
+  .progress-step.active {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
