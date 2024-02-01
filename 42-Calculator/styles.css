@@ -1,0 +1,52 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #ffd5e5; /* Light pink background for the cute theme */
+}
+
+.calculator {
+  background-color: #fff;
+  border: 2px solid #ff6d7c;
+  width: 20%;
+  padding: 2px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.display {
+  padding: 20px;
+  font-size: 24px;
+  text-align: right;
+  border-bottom: 1px solid #ddd;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+button {
+  padding: 15px;
+  margin: 5px;
+  font-size: 18px;
+  border: 1px solid #ff6d7c;
+  outline: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  background-color: #ffacb7; /* Initial cute pink color for buttons */
+  color: #fff; /* Text color for buttons */
+  border-radius: 8px; /* Rounded corners for buttons */
+}
+
+button:hover {
+  background-color: #ff91a1; /* Lighter pink on hover */
+}
+
+button:active {
+  background-color: #ff6d7c; /* Darker pink on click */
+}
