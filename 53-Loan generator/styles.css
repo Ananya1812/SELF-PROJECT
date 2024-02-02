@@ -1,0 +1,67 @@
+body {
+  font-family: "Arial", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(
+    to right,
+    #e74c3c,
+    #f39c12
+  ); /* Shades of orange gradient background */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff; /* White text color */
+  padding: 50px;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* Semi-transparent white background */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Box shadow for a subtle effect */
+}
+h1 {
+  color: #d35400;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  color: #f39c12;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #f39c12; /* Orange border color */
+  border-radius: 5px;
+}
+
+.calculate-btn {
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: #e74c3c; /* Dark orange button background */
+  color: #fff; /* White text color for the button */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.calculate-btn:hover {
+  background-color: #d35400; /* Darker orange on hover */
+}
+
+#result {
+  font-size: 1.2em;
+  margin-top: 20px;
+}
