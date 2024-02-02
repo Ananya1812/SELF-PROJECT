@@ -1,0 +1,92 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #8e44ad, #9b59b6); /* Shades of purple gradient background */
+  }
+  
+  .container {
+    text-align: center;
+    color: #fff; /* White text color */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Box shadow for a subtle effect */
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .password-display {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff; /* White background for password display */
+    color: #8e44ad; /* Purple text color */
+    border-radius: 5px;
+  }
+  
+  .generate-btn {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #8e44ad; /* Purple button background */
+    color: #fff; /* White text color for the button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .generate-btn:hover {
+    background-color: #6c3483; /* Darker purple on hover */
+  }
+  body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #8e44ad, #9b59b6); /* Shades of purple gradient background */
+  }
+  
+  .container {
+    text-align: center;
+    color: #fff; /* White text color */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Box shadow for a subtle effect */
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    color: #8e44ad;
+  }
+  
+  .password-display {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff; /* White background for password display */
+    color: #8e44ad; /* Purple text color */
+    border-radius: 5px;
+  }
+  
+  .generate-btn {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #8e44ad; /* Purple button background */
+    color: #fff; /* White text color for the button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .generate-btn:hover {
+    background-color: #6c3483; /* Darker purple on hover */
+  }
+    
